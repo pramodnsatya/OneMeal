@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.UpdateFood"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="200dp">
+
+        <EditText
+            android:id="@+id/updateFoodMemberCount"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:hint="Enter Member Count" />
+
+        <EditText
+            android:id="@+id/updateFoodStatus"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:hint="Enter Status" />
+
+        <Button
+            android:id="@+id/updateFoodSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Update "
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/updateFoodCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Back" />
+
+    </LinearLayout>
+
+</ScrollView>

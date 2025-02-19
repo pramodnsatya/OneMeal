@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.OneMeal">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodWastageApplication">
+        <activity
+            android:name="com.example.OneMeal.view.ViewFoodRequest"
+            android:exported="false" />
+        <activity
+            android:name="com.example.OneMeal.view.ListFoodRequests"
+            android:exported="false" />
+        <activity android:name="com.example.OneMeal.view.AddFood" />
+        <activity android:name="com.example.OneMeal.view.VolunteerHome" />
+        <activity android:name="com.example.OneMeal.view.VolunteerLogin" />
+        <activity android:name="com.example.OneMeal.view.VolunuteerRegistration" />
+        <activity android:name="com.example.OneMeal.view.DonorHome" />
+        <activity android:name="com.example.OneMeal.view.ListFood" />
+        <activity android:name="com.example.OneMeal.view.ListNearBy" />
+        <activity android:name="com.example.OneMeal.view.LoginActivity" />
+        <activity android:name="com.example.OneMeal.view.RegisterActivity" />
+        <activity android:name="com.example.OneMeal.view.UpdateFood" />
+        <activity android:name="com.example.OneMeal.view.NGOHome" />
+        <activity android:name="com.example.OneMeal.view.ViewFood" />
+        <activity android:name="com.example.OneMeal.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

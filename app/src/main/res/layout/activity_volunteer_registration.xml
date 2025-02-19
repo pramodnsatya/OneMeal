@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.VolunuteerRegistration"
+    android:layout_margin="10dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/registerName1"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/registerUserName1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Enter User Name"
+        android:inputType="text"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/registerPassword1"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/registerConPass1"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Retype Password"
+        android:inputType="textPassword"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/registerEmail1"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textWebEmailAddress"
+        android:paddingBottom="12dp" />
+
+    <EditText
+        android:id="@+id/registerMobile1"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Enter Mobile"
+        android:inputType="phone"
+        android:paddingBottom="12dp" />
+
+    <Button
+        android:id="@+id/registerButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Register"
+        android:textSize="20sp" />
+
+</LinearLayout>

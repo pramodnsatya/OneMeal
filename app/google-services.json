@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "299281305488",
+    "firebase_url": "https://one-meal-dfd17-default-rtdb.firebaseio.com",
+    "project_id": "one-meal-dfd17",
+    "storage_bucket": "one-meal-dfd17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299281305488:android:31acc881928533faccad15",
+        "android_client_info": {
+          "package_name": "com.example.OneMeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299281305488-f7gvltqtu8kbd0ll0badmg420thironb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxU2OAsXi-67Byz1v8tE7TAkn7xCVeWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299281305488-f7gvltqtu8kbd0ll0badmg420thironb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
