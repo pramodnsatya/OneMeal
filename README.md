@@ -1,0 +1,3 @@
+**One Meal**
+
+One Meal is a mobile application designed to combat food wastage by connecting food donors, NGOs, and volunteers. Every year, approximately 1.3 billion tons of food is wasted globally, while millions suffer from hunger. One Meal provides a platform where restaurants, event organizers, and individuals can donate surplus food, which NGOs can then request and distribute to those in need. Additionally, volunteers can assist in delivering food, creating a collaborative system to reduce waste and feed the hungry which is what makes this application unique. Developed in Android Studio with Java and Firebase for backend support, the app aims to create a sustainable and efficient food donation network. 
