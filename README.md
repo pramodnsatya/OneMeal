@@ -5,6 +5,7 @@ One Meal is a **mobile application** designed to **combat food wastage** by conn
 ---
 
 ✨ **How It Works:**  
+
 🍛 **Donors** (restaurants, event organizers, individuals) can **donate surplus food** instead of wasting it.  
 🏡 **NGOs** can browse and **request food** to distribute to those in need.  
 🚴 **Volunteers** can **deliver food** to bridge the gap, making this platform truly **collaborative & unique**!  
@@ -12,6 +13,7 @@ One Meal is a **mobile application** designed to **combat food wastage** by conn
 ---
 
 💡 **Tech Stack:**  
+
 🔹 Developed in **Android Studio** using **Java**
 🔹 **Firebase** for seamless backend support 
 
